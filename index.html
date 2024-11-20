@@ -12,7 +12,18 @@
         <header>
             <h1>>Inf</h1>
         </header>
+        <div id="time" style="width: 20vw; right: 50px; top: calc(100vh - 200px );" class="window">
+            <div class="windowbar" onmouseover ="dragElement(document.getElementById('time'));">
+                <button onclick="closewindow('time')" style="background-color: #fe5f56;"></button>
+                <button style="background-color: #ffbd2e;"></button>
+                <button onclick="funnystuff('time')" style="background-color: #27c93f;"></button>
 
-        <script src="Index.js"></script>
+                <p style="margin: 0px;">Current time</p>
+            </div>
+            <div style="height: 100px;" class="windowcontent" style="display: block;">
+                <p id="">hehe</p>
+            </div>
+        </div>
+        <script src="index.js"></script>
     </body>
 </html>
