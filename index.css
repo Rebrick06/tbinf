@@ -1,7 +1,12 @@
+<<<<<<< HEAD
 body{
     width: 100vw;
     height: 100vh;
     margin: 0px;
+
+    background: linear-gradient(to top, #000000, #000000, #333333, #333333);
+    background-size: cover;
+    background-size: 100% 1px;
 }
 
 
