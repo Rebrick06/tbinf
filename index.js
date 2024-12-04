@@ -1,10 +1,11 @@
-
-
+var indexcount = 0;
 
 function dragElement(elmnt) {
     document.getElementById(elmnt.id).style.zIndex = indexcount;
     indexcount++;
-  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+    console.log("yeye");
+
+    var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
   if (document.getElementById(elmnt.id + "header")) {
     // if present, the header is where you move the DIV from:
     document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
