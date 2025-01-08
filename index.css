@@ -1,22 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
 body{
+    font-family: "Jersey 10", serif;
+
     width: 100vw;
     height: 100vh;
-    margin: 0px;
+    margin:0px;
 
-    background: linear-gradient(to top, #000000, #000000, #333333, #333333);
+    background: linear-gradient(to top, #000000, #000000, #d6d6d6, #d6d6d6);
     background-size: cover;
     background-size: 100% 1px;
+
 }
 
 
+/*navigationsbar*/
+.topbar{
+    position: absolute;
+    height: 2vw;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/*fönster*/
 .window{
     display: block;
     width: 40vw;
     position: absolute;
     top: 50px;
     right: 50px;
-    background-color: black;
-    border-radius: 10px;
+    border: solid 2px black;
+    background-color: white;
+    border-radius: 5px;
 }
 
 .windowbar{
