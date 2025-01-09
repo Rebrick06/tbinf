@@ -26,6 +26,26 @@ body{
 }
 
 
+/*Rutområde*/
+.apprutor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+    grid-template-areas: none
+    "radett radett radett"
+    "radtva radtva radtva"    
+    ;
+    
+}
+
+#radett{
+    grid-area: radett;
+}
+
+#radtva{
+    grid-area: radtva;
+}
 
 /*fönster*/
 .window{
