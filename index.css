@@ -7,18 +7,23 @@ body{
     height: 100vh;
     margin:0px;
 
-    background: linear-gradient(to top, #000000, #000000, #d6d6d6, #d6d6d6);
+    /*background: linear-gradient(to top, #000000, #000000, #d6d6d6, #d6d6d6);*/
+    background-image: url("https://i.pinimg.com/originals/ba/d9/88/bad98876a2009d20e2c3ece35d293c7c.jpg");
+    /*background-color: #008080;*/    
+    
     background-size: cover;
-    background-size: 100% 1px;
+    /*background-size: 100% 1px;*/
 
+    overflow: hidden;
 }
 
 
 /*navigationsbar*/
 .topbar{
-    position: absolute;
-    height: 2vw;
-    background-color: white;
+    height: 50px;
+    bottom: 0px;
+    position: absolute; 
+    background-color: #2562dd;
     width: 100%;
     display: flex;
     align-items: center;
@@ -27,16 +32,24 @@ body{
 
 
 /*Rutområde*/
-.apprutor{
+.appar{
+    padding-top: 2vw;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    gap: 20px;
-    grid-template-areas: none
-    "radett radett radett"
-    "radtva radtva radtva"    
-    ;
-    
+    gap: 50px;
+    grid-template-columns: 1fr;
+    padding: 10px;
+}
+
+.appar > div{
+    width: 100px;
+    border: 2px dashed transparent;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.appar > div:hover{
+    border: 2px dashed black;
 }
 
 #radett{
