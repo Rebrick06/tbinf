@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');*/
 
 body{
-    font-family: "Jersey 10", serif;
+    font-family: "arial", serif;
 
     width: 100vw;
     height: 100vh;
@@ -24,19 +24,42 @@ p{
     color: white;
 }
 
+h2{
+    color: white;
+    margin: 0px;
+    font-style: italic;
+    text-shadow: 1px 1px  black;
+}
+
+h6{
+    margin: 0px;
+    font-size: 0.4em;
+    color: white;
+    text-shadow: 1px 1px  black;
+}
 
 /*navigationsbar*/
 .topbar{
-    height: 50px;
+    height: 40px;
     bottom: 0px;
     position: absolute; 
-    background-color: #2562dd;
+    background: linear-gradient(0deg, rgba(38,93,220,1) 80%, rgba(104,142,199,1) 100%);
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
+
+.startbutton{
+    height: 100%;
+    width: 120px;
+    background: linear-gradient(0deg, rgba(138,199,136,1) 0%, rgba(69,166,66,1) 20%, rgba(69,166,66,1) 80%, rgba(138,199,136,1) 100%);
+    border-radius: 0px 10px  10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
 /*Rutområde*/
 .appar{
@@ -66,6 +89,7 @@ p{
 #radtva{
     grid-area: radtva;
 }
+
 
 /*fönster*/
 .window{
