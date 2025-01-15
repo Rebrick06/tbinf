@@ -1,23 +1,75 @@
-<<<<<<< HEAD
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
 body{
+    font-family: "Jersey 10", serif;
+
     width: 100vw;
     height: 100vh;
-    margin: 0px;
+    margin:0px;
 
-    background: linear-gradient(to top, #000000, #000000, #333333, #333333);
+    /*background: linear-gradient(to top, #000000, #000000, #d6d6d6, #d6d6d6);*/
+    background-image: url("https://i.pinimg.com/originals/ba/d9/88/bad98876a2009d20e2c3ece35d293c7c.jpg");
+    /*background-color: #008080;*/    
+    
     background-size: cover;
-    background-size: 100% 1px;
+    /*background-size: 100% 1px;*/
+
+    overflow: hidden;
 }
 
 
+/*navigationsbar*/
+.topbar{
+    height: 50px;
+    bottom: 0px;
+    position: absolute; 
+    background-color: #2562dd;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*Rutområde*/
+.appar{
+    padding-top: 2vw;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: 1fr;
+    padding: 10px;
+}
+
+.appar > div{
+    width: 100px;
+    border: 2px dashed transparent;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.appar > div:hover{
+    border: 2px dashed black;
+}
+
+#radett{
+    grid-area: radett;
+}
+
+#radtva{
+    grid-area: radtva;
+}
+
+/*fönster*/
 .window{
     display: block;
     width: 40vw;
     position: absolute;
     top: 50px;
     right: 50px;
-    background-color: black;
-    border-radius: 10px;
+    border: solid 2px black;
+    background-color: white;
+    border-radius: 5px;
 }
 
 .windowbar{
