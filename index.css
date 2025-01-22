@@ -111,7 +111,7 @@ h6{
     right: 50px;
     border: solid 2px #2562dd;
     background-color: white;
-    border-radius: 5px;
+    border-radius: 8px;
 
 }
 
@@ -122,12 +122,20 @@ h6{
     justify-content: space-between;
     gap: 10px;
     cursor: move;
-    background-color: #2562dd;
+    background: linear-gradient(0deg, rgba(38,93,220,1) 80%, rgba(104,142,199,1) 100%);
+    border-radius: 5px 5px 0px 0px;
+    
 }
 
 
 .windowbar button{
     color: white;
-    border: 1px solid white;
-    border-radius: 1px;
+    border: 1.5px solid white;
+    border-radius: 5px;
+    padding: 1.5px;
+    margin-left: 0.5px;
+    margin-top: 1.5px;
+    margin-bottom: 1.5px;
+
+    
 }
