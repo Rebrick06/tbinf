@@ -68,12 +68,14 @@ h6{
     padding-top: 2vw;
     display: grid;
     gap: 50px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 70px 70px;
+    grid-template-rows: 70px 70px;
     padding: 10px;
 }
 
 .appar > div{
     width: 100px;
+    height: 120px;
     border: 2px dashed transparent;
     font-size: 30px;
     text-align: center;
@@ -136,6 +138,19 @@ h6{
     margin-left: 0.5px;
     margin-top: 1.5px;
     margin-bottom: 1.5px;
+}
 
-    
+.windowbar button:active{
+    border: 1px solid rgb(0, 0, 0);
+}
+
+
+@media only screen and (max-width: 500px){
+    .window{
+        width: 100vw;
+        height: 100vh;
+
+        top: 0px;
+        left: 0px;
+    }
 }

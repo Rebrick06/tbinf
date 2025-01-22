@@ -1,10 +1,14 @@
 var indexcount = 0;
 function dragElement(elmnt) {
-    document.getElementById(elmnt.id).style.zIndex = indexcount;
-    indexcount++;
-    console.log("yeye");
+  if (this.window < 500){
+    elmnt.style.top = "0px";
+    elmnt.style.left = "0px";
+  }
 
-    var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  document.getElementById(elmnt.id).style.zIndex = indexcount;
+  indexcount++;
+
+  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
   if (document.getElementById(elmnt.id + "header")) {
     document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
   } else {
@@ -41,3 +45,18 @@ function dragElement(elmnt) {
     document.onmousemove = null;
   }
 }
+
+function closewindow(elem){
+  console.log(elem);
+  document.getElementById(elem).style.display = "none";
+}
+
+window.addEventListener("resize", function(){
+
+  if (window.innerWidth < 500){
+    
+  }
+  else{
+
+  }
+});
