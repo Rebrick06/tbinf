@@ -38,6 +38,7 @@ h6{
     text-shadow: 1px 1px  black;
 }
 
+
 /*navigationsbar*/
 .topbar{
     height: 40px;
@@ -63,6 +64,7 @@ h6{
 
 /*Rutområde*/
 .appar{
+    user-select: none;
     padding-top: 2vw;
     display: grid;
     gap: 50px;
@@ -80,6 +82,15 @@ h6{
 
 .appar > div:hover{
     border: 2px dashed black;
+}
+
+.navapps{
+    height: 100%;
+}
+
+.navapps :hover{
+    background-color: #1850b7;
+    border-radius: 2px;
 }
 
 #radett{
@@ -112,4 +123,11 @@ h6{
     gap: 10px;
     cursor: move;
     background-color: #2562dd;
+}
+
+
+.windowbar button{
+    color: white;
+    border: 1px solid white;
+    border-radius: 1px;
 }
