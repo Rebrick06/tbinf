@@ -103,6 +103,15 @@ h6{
     grid-area: radtva;
 }
 
+.windowcontent{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+
 
 /*fönster*/
 .window{
@@ -143,6 +152,8 @@ h6{
 .windowbar button:active{
     border: 1px solid rgb(0, 0, 0);
 }
+
+
 
 
 @media only screen and (max-width: 500px){

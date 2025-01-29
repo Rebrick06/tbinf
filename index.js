@@ -1,12 +1,13 @@
 var indexcount = 0;
 function dragElement(elmnt) {
+
   if (this.window < 500){
     elmnt.style.top = "0px";
     elmnt.style.left = "0px";
   }
-
-  document.getElementById(elmnt.id).style.zIndex = indexcount;
   indexcount++;
+  document.getElementById(elmnt.id).style.zIndex = indexcount;
+  
 
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
   if (document.getElementById(elmnt.id + "header")) {
@@ -47,8 +48,11 @@ function dragElement(elmnt) {
 }
 
 function closewindow(elem){
-  console.log(elem);
   document.getElementById(elem).style.display = "none";
+}
+
+function openwindow(elem){
+  document.getElementById(elem).style.display = "block";
 }
 
 window.addEventListener("resize", function(){

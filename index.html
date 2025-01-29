@@ -23,18 +23,18 @@
 
         <!--Apprutor-->
         <div class="appar">
-            <div><img src="https://www.logo.wine/a/logo/Internet_Explorer/Internet_Explorer-Logo.wine.svg" alt="" width="100px"> <h6>Välkommen</h6></div>
-            <div><img src="https://www.logo.wine/a/logo/Internet_Explorer/Internet_Explorer-Logo.wine.svg" alt="" width="100px"> <h6>Informationsteknik nivå 1</h6></div>
-            <div><img src="https://www.logo.wine/a/logo/Internet_Explorer/Internet_Explorer-Logo.wine.svg" alt="" width="100px"> <h6>Programmering nivå 1</h6></div>
+            <div onclick="openwindow('valkommen')"><img src="https://www.iconarchive.com/download/i95222/dtafalonso/modern-xp/ModernXP-07-Keys.ico" alt="" width="70px"> <h6>Välkommen</h6></div>
+            <div onclick="openwindow('Informationsteknik')"><img src="https://microsofttouch.fr/resized-image.ashx/__size/1200x0/__key/CommunityServer.Blogs.Components.WeblogFiles/js/rdplogo.png" alt="" width="70px"> <h6>Informationsteknik nivå 1</h6></div>
+            <div onclick="openwindow('Programmering1')"><img src="https://img.utdstc.com/icon/f89/6ae/f896aebe4551c1998fc00e2818180432803a952a418e30f2b21b647fde3cf836:200" alt="" width="66px"> <h6>Programmering nivå 1</h6></div>
             <div><img src="https://www.logo.wine/a/logo/Internet_Explorer/Internet_Explorer-Logo.wine.svg" alt="" width="100px"> <h6>Webbutveckling nivå 1</h6></div>
-            <div><img src="https://www.logo.wine/a/logo/Internet_Explorer/Internet_Explorer-Logo.wine.svg" alt="" width="100px"> <h6>Programmering nivå 2</h6></div>
-            <div><img src="https://www.logo.wine/a/logo/Internet_Explorer/Internet_Explorer-Logo.wine.svg" alt="" width="100px"> <h6>Tillämpad programmering nivå 1</h6></div>
+            <div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Icon-Vim.svg/2048px-Icon-Vim.svg.png" alt="" width="67px"> <h6>Programmering nivå 2</h6></div>
+            <div><img src="https://www.pngkit.com/png/full/235-2354217_clippy-animated-transparent.png" alt="" width="70px"> <h6>Tillämpad programmering nivå 1</h6></div>
             <div><img src="https://icons.iconarchive.com/icons/dtafalonso/modern-xp/512/ModernXP-75-Trash-icon.png" alt="" width="50px">  <h6>Procivitas</h2></div>
             
         </div>
 
         <!--Fönster-->
-        <div id="valkommen" style="width: 300px; right: 40vw; top: calc(50vh - 100px ); display: block;" class="window">
+        <div id="valkommen" style="width: 500px; right: 40vw; top: calc(50vh - 100px ); display: block;" class="window">
             <div class="windowbar" onclick ="dragElement(document.getElementById('valkommen'));">
 
                 <p style="user-select: none;">Välkommen till TBINF.se</p>
@@ -42,6 +42,76 @@
                     <button onclick="closewindow('valkommen')" style="background: linear-gradient(144deg, rgba(169,176,244,1) 0%, rgba(37,98,221,1) 70%);"><strong><svg xmlns="http://www.w3.org/2000/svg" height="15px" viewBox="20 -1250 960 960" width="15px" fill="#ffffff"><path d="M200-440v-80h560v80H200Z"/></svg></strong></button>
                     <button onclick="closewindow('valkommen')" style="background: linear-gradient(144deg, rgba(169,176,244,1) 0%, rgba(37,98,221,1) 70%);"><strong><svg xmlns="http://www.w3.org/2000/svg" height="15px" viewBox="100 -950 800 800" width="15px" fill="#ffffff"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm0-80h640v-400H160v400Z"/></svg></strong></button>
                     <button onclick="closewindow('valkommen')" style="background: linear-gradient(144deg, rgba(244,169,169,1) 0%, rgba(255,0,0,1) 100%);"><strong><svg xmlns="http://www.w3.org/2000/svg" height="15px" viewBox="170 -860 650 650" width="15px" fill="#ffffff"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></strong></button>
+                </div>
+            </div>
+            <div class="windowcontent" style="display: block;">
+                <h1 style="margin-bottom: 0px;" id="">Välkommen till TBINF</h1>
+                <p style="color: black;">Kicka runt på programmen för att lära dig mer om inf</p>
+                <img src="https://media2.giphy.com/media/XreQmk7ETCak0/200.gif?cid=6c09b952ibzkm0yjfw5tcc8vw4tc070ih86vgfc4nqxqa2ad&ep=v1_gifs_search&rid=200.gif&ct=g" alt="">
+            </div>
+        </div>
+
+        <!--Fönster-->
+        <div id="Informationsteknik" style="width: 500px; right: 40vw; top: calc(50vh - 100px ); display: none;" class="window">
+            <div class="windowbar" onclick ="dragElement(document.getElementById('Informationsteknik'));">
+
+                <p style="user-select: none;">Informationsteknik</p>
+                <div>
+                    <button onclick="closewindow('Informationsteknik')" style="background: linear-gradient(144deg, rgba(169,176,244,1) 0%, rgba(37,98,221,1) 70%);"><strong><svg xmlns="http://www.w3.org/2000/svg" height="15px" viewBox="20 -1250 960 960" width="15px" fill="#ffffff"><path d="M200-440v-80h560v80H200Z"/></svg></strong></button>
+                    <button onclick="closewindow('Informationsteknik')" style="background: linear-gradient(144deg, rgba(169,176,244,1) 0%, rgba(37,98,221,1) 70%);"><strong><svg xmlns="http://www.w3.org/2000/svg" height="15px" viewBox="100 -950 800 800" width="15px" fill="#ffffff"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm0-80h640v-400H160v400Z"/></svg></strong></button>
+                    <button onclick="closewindow('Informationsteknik')" style="background: linear-gradient(144deg, rgba(244,169,169,1) 0%, rgba(255,0,0,1) 100%);"><strong><svg xmlns="http://www.w3.org/2000/svg" height="15px" viewBox="170 -860 650 650" width="15px" fill="#ffffff"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></strong></button>
+                </div>
+            </div>
+            <div class="windowcontent" style="display: block;">
+                <h1 style="margin-bottom: 0px;" id="">Informationsteknik</h1>
+                
+                <div style="margin: 20px;"><p style="color: black;">Informationsteknik (IT) nivå 1 på gymnasiet är en grundläggande kurs som fokuserar på att ge eleverna kunskap och färdigheter inom IT. Kursen täcker ämnen som datoranvändning, nätverksteknik, programmering, säkerhet och integritet, samt multimedia. Eleverna lär sig hantera datorer, förstå nätverkskommunikation, grunderna i programmering och hur man säkerställer sin information online. Kursen syftar till att ge en solid bas för vidare studier eller arbete inom teknikområdet.</p>
+                </div>
+                    <img src="https://media0.giphy.com/media/QWkuGmMgphvmE/200.gif?cid=6c09b952af0zk34my5u5ypi82z0tjvl1etcabxzi9xsf769g&ep=v1_gifs_search&rid=200.gif&ct=g" alt="">
+            </div>
+        </div>
+
+        <!--Fönster-->
+        <div id="Programmering1" style="width: 300px; right: 40vw; top: calc(50vh - 100px ); display: none;" class="window">
+            <div class="windowbar" onclick ="dragElement(document.getElementById('Programmering1'));">
+
+                <p style="user-select: none;">Välkommen till TBINF.se</p>
+                <div>
+                    <button onclick="closewindow('Programmering1')" style="background: linear-gradient(144deg, rgba(169,176,244,1) 0%, rgba(37,98,221,1) 70%);"><strong><svg xmlns="http://www.w3.org/2000/svg" height="15px" viewBox="20 -1250 960 960" width="15px" fill="#ffffff"><path d="M200-440v-80h560v80H200Z"/></svg></strong></button>
+                    <button onclick="closewindow('Programmering1')" style="background: linear-gradient(144deg, rgba(169,176,244,1) 0%, rgba(37,98,221,1) 70%);"><strong><svg xmlns="http://www.w3.org/2000/svg" height="15px" viewBox="100 -950 800 800" width="15px" fill="#ffffff"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm0-80h640v-400H160v400Z"/></svg></strong></button>
+                    <button onclick="closewindow('Programmering1')" style="background: linear-gradient(144deg, rgba(244,169,169,1) 0%, rgba(255,0,0,1) 100%);"><strong><svg xmlns="http://www.w3.org/2000/svg" height="15px" viewBox="170 -860 650 650" width="15px" fill="#ffffff"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></strong></button>
+                </div>
+            </div>
+            <div style="height: 100px;" class="windowcontent" style="display: block;">
+                <p2 id="">hehe</p2>
+            </div>
+        </div>
+
+        <!--Fönster-->
+        <div id="Webbutveckling" style="width: 300px; right: 40vw; top: calc(50vh - 100px ); display: none;" class="window">
+            <div class="windowbar" onclick ="dragElement(document.getElementById('Webbutveckling'));">
+
+                <p style="user-select: none;">Välkommen till TBINF.se</p>
+                <div>
+                    <button onclick="closewindow('Webbutveckling')" style="background: linear-gradient(144deg, rgba(169,176,244,1) 0%, rgba(37,98,221,1) 70%);"><strong><svg xmlns="http://www.w3.org/2000/svg" height="15px" viewBox="20 -1250 960 960" width="15px" fill="#ffffff"><path d="M200-440v-80h560v80H200Z"/></svg></strong></button>
+                    <button onclick="closewindow('Webbutveckling')" style="background: linear-gradient(144deg, rgba(169,176,244,1) 0%, rgba(37,98,221,1) 70%);"><strong><svg xmlns="http://www.w3.org/2000/svg" height="15px" viewBox="100 -950 800 800" width="15px" fill="#ffffff"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm0-80h640v-400H160v400Z"/></svg></strong></button>
+                    <button onclick="closewindow('Webbutveckling')" style="background: linear-gradient(144deg, rgba(244,169,169,1) 0%, rgba(255,0,0,1) 100%);"><strong><svg xmlns="http://www.w3.org/2000/svg" height="15px" viewBox="170 -860 650 650" width="15px" fill="#ffffff"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></strong></button>
+                </div>
+            </div>
+            <div style="height: 100px;" class="windowcontent" style="display: block;">
+                <p2 id="">hehe</p2>
+            </div>
+        </div>
+
+        <!--Fönster-->
+        <div id="Programmering2" style="width: 300px; right: 40vw; top: calc(50vh - 100px ); display: none;" class="window">
+            <div class="windowbar" onclick ="dragElement(document.getElementById('Programmering2'));">
+
+                <p style="user-select: none;">Välkommen till TBINF.se</p>
+                <div>
+                    <button onclick="closewindow('Programmering2')" style="background: linear-gradient(144deg, rgba(169,176,244,1) 0%, rgba(37,98,221,1) 70%);"><strong><svg xmlns="http://www.w3.org/2000/svg" height="15px" viewBox="20 -1250 960 960" width="15px" fill="#ffffff"><path d="M200-440v-80h560v80H200Z"/></svg></strong></button>
+                    <button onclick="closewindow('Programmering2')" style="background: linear-gradient(144deg, rgba(169,176,244,1) 0%, rgba(37,98,221,1) 70%);"><strong><svg xmlns="http://www.w3.org/2000/svg" height="15px" viewBox="100 -950 800 800" width="15px" fill="#ffffff"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm0-80h640v-400H160v400Z"/></svg></strong></button>
+                    <button onclick="closewindow('Programmering2')" style="background: linear-gradient(144deg, rgba(244,169,169,1) 0%, rgba(255,0,0,1) 100%);"><strong><svg xmlns="http://www.w3.org/2000/svg" height="15px" viewBox="170 -860 650 650" width="15px" fill="#ffffff"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></strong></button>
                 </div>
             </div>
             <div style="height: 100px;" class="windowcontent" style="display: block;">
