@@ -30,9 +30,9 @@ function genereraWindows() { //placerar koten i html filen i den ordningen som d
     }
     else
     {
-      windowWidth = viewportWidth-50;
-      windowX = 0;
-      windowY = viewportHeight/4;
+      windowWidth = viewportWidth-100;
+      windowX = 5;
+      windowY = 50;
     }
     windowElement.innerHTML = 
 

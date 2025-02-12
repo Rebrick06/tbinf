@@ -152,16 +152,3 @@ h6{
 .windowbar button:active{
     border: 1px solid rgb(0, 0, 0);
 }
-
-
-
-
-@media only screen and (max-width: 500px){
-    .window{
-        width: 100vw;
-        height: 100vh;
-
-        top: 0px;
-        left: 0px;
-    }
-}
