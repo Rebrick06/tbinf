@@ -3,14 +3,14 @@
         "id":"Informationsteknik",
         "name":"Informationsteknik",
         "info":"Informationsteknik (IT) nivå 1 på gymnasiet är en grundläggande kurs som fokuserar på att ge eleverna kunskap och färdigheter inom IT. Kursen täcker ämnen som datoranvändning, nätverksteknik, programmering, säkerhet och integritet, samt multimedia. Eleverna lär sig hantera datorer, förstå nätverkskommunikation, grunderna i programmering och hur man säkerställer sin information online. Kursen syftar till att ge en solid bas för vidare studier eller arbete inom teknikområdet.",
-        "image": "https://i.kym-cdn.com/photos/images/original/001/751/270/fd3.gihttps://media.tenor.com/qVKlQMB2DpsAAAAM/hacker-hacking.giff"
+        "image": "image/informationsteknik.gif"
     },
 
     {
         "id":"Programmering1",
         "name":"Programmering 1",
         "info":"Programmering nivå 1 (GY25) är en introduktionskurs där elever lär sig grunderna i programmering, såsom variabler, datatyper, villkor, loopar och funktioner. Kursen fokuserar på att skapa enkla program, förstå algoritmer och skriva strukturerad kod. Vanliga programmeringsspråk som används är exempelvis Python eller JavaScript. Eleverna får även träna på felsökning och problemlösning genom kod. Kursen ger en grundläggande förståelse för programmering och förbereder för vidare studier inom IT och utveckling.",
-        "image": "image/Programmering1.gif"
+        "image": "image/programmering1.gif"
 
     },
 
