@@ -1,3 +1,5 @@
+const windowholder = document.getElementById("windowholder");
+
 var indexcount = 0;
 function dragElement(elmnt) {
 
