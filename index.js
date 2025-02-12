@@ -37,7 +37,7 @@ function genereraWindows() { //placerar koten i html filen i den ordningen som d
     windowElement.innerHTML = 
 
     
-      `<div id="${windowsWindow.id}" style="width: ${windowWidth}px; right: ${windowX}vw; top: ${windowY}px; display: block;" class="window">
+      `<div id="${windowsWindow.id}" style="width: ${windowWidth}px; right: ${windowX}vw; top: ${windowY}px; display: none;" class="window">
          <div class="windowbar" onclick ="dragElement(document.getElementById('${windowsWindow.id}'));">
                 <p style="user-select: none;">${windowsWindow.name}</p>
                 <div>
@@ -117,10 +117,4 @@ function openwindow(elem){
 
 window.addEventListener("resize", function(){
 
-  if (window.innerWidth < 500){
-    
-  }
-  else{
-
-  }
 });
