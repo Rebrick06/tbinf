@@ -1,0 +1,36 @@
+[
+    {
+        "id":"Informationsteknik",
+        "name":"Informationsteknik",
+        "info":"Informationsteknik (IT) nivå 1 på gymnasiet är en grundläggande kurs som fokuserar på att ge eleverna kunskap och färdigheter inom IT. Kursen täcker ämnen som datoranvändning, nätverksteknik, programmering, säkerhet och integritet, samt multimedia. Eleverna lär sig hantera datorer, förstå nätverkskommunikation, grunderna i programmering och hur man säkerställer sin information online. Kursen syftar till att ge en solid bas för vidare studier eller arbete inom teknikområdet.",
+        "image": "https://i.kym-cdn.com/photos/images/original/001/751/270/fd3.gihttps://media.tenor.com/qVKlQMB2DpsAAAAM/hacker-hacking.giff"
+    },
+
+    {
+        "id":"Programmering1",
+        "name":"Programmering 1",
+        "info":"Programmering nivå 1 (GY25) är en introduktionskurs där elever lär sig grunderna i programmering, såsom variabler, datatyper, villkor, loopar och funktioner. Kursen fokuserar på att skapa enkla program, förstå algoritmer och skriva strukturerad kod. Vanliga programmeringsspråk som används är exempelvis Python eller JavaScript. Eleverna får även träna på felsökning och problemlösning genom kod. Kursen ger en grundläggande förståelse för programmering och förbereder för vidare studier inom IT och utveckling.",
+        "image": "https://i.kym-cdn.com/photos/images/original/001/751/270/fd3.gif"
+    },
+
+    {
+        "id":"Webbutveckling",
+        "name":"Webbutveckling",
+        "info":"Webbutveckling nivå 1 (GY25) är en grundläggande kurs där elever lär sig att skapa och utveckla webbplatser med HTML, CSS och grundläggande JavaScript. Fokus ligger på struktur, design och interaktivitet samt responsiv anpassning för olika enheter. Kursen omfattar även webbpublicering och UX/UI-principer för att skapa användarvänliga sidor. Eleverna får praktisk erfarenhet av att bygga och publicera egna webbprojekt, vilket ger en bra grund för vidare studier inom webbutveckling och digital design.",
+        "image": "https://media0.giphy.com/media/QWkuGmMgphvmE/200.gif?cid=6c09b952af0zk34my5u5ypi82z0tjvl1etcabxzi9xsf769g&ep=v1_gifs_search&rid=200.gif&ct=g"
+    },
+
+    {
+        "id":"Programmering2",
+        "name":"Programmering 2",
+        "info":"Programmering 2 (GY25) är en fördjupningskurs som bygger vidare på Programmering 1 och fokuserar på objektorienterad programmering (OOP), datastrukturer och algoritmer. Eleverna lär sig att arbeta med klasser, objekt, arv och inkapsling, samt att använda mer avancerade tekniker som filhantering och databaskoppling. Kursen täcker även felhantering, testning och utvecklingsmetodik. Målet är att utveckla större och mer komplexa program och ge en djupare förståelse för programutveckling.",
+        "image": "https://media.tenor.com/i3lImBg2UEQAAAAM/scaler-create-impact.gif"
+    },
+
+    {
+        "id":"Tillämpad",
+        "name":"Tillämpad programmering nivå 1",
+        "info":"Tillämpad programmering nivå 1 (GY25) är en praktisk kurs där elever lär sig att använda programmering inom specifika områden som spelutveckling, webbutveckling, IoT eller automation. Fokus ligger på projektbaserat lärande, där elever utvecklar egna program och arbetar med externa bibliotek, API:er och hårdvaruinteraktion. Kursen inkluderar även felsökning, optimering och problemlösning. Målet är att ge en bred förståelse för hur programmering kan tillämpas i verkliga scenarier och olika branscher.",
+        "image": "https://media2.giphy.com/media/PDsgxQoXvUZGg/giphy.gif?cid=6c09b952c8ao1yy7dyw09p3qeyeaw0en54zrxriosjh2pvnn&ep=v1_gifs_search&rid=giphy.gif&ct=g"
+    }
+]
